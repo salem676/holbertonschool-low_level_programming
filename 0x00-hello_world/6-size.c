@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *main - prints sizes of variables in bytes.
+ *Main - prints sizes of variables in bytes.
  *
- *return -  same value as usual: 0.
+ *Return -  same value as usual: 0.
  *
  */
 int main (void)

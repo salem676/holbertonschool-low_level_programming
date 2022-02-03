@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *main - used printf function to print string.
+ *Main - used printf function to print string.
  *
- *description- use printf
- *return - because of int main function return must be integer value.
+ *Description- use printf
+ *Return - because of int main function return must be integer value.
  */
 int main(void)
 {
