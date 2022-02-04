@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  *main - prints numbers, space, ",".
  *
@@ -7,11 +8,12 @@
 int main(void)
 {
   int number;
-  number='0';
-  while(number>='0'&&number<='9')
+
+  number = '0';
+  while(number >= '0' && number <= '9')
     {
       putchar(number);
-      if(number!='9')
+      if(number != '9')
 	{
 	  putchar(',');
 	  putchar(' ');

@@ -1,4 +1,5 @@
 #include <unistd.h>
+
 /**
  *main - prints 0123456789.
  *
@@ -6,6 +7,6 @@
  */
 int main(void)
 {
-  write(1,"0123456789\n",11);
+  write(1, "0123456789\n", 11);
   return (0);
 }

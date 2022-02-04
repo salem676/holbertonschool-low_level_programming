@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  *main - prints alphabet in reverse.
  *
@@ -6,9 +7,11 @@
  */
 int main(void)
 {
+  
   int letter;
-  letter='z';
-  while(letter>='a'&&number<='z')
+
+  letter = 'z';
+  while(letter >= 'a' && number <= 'z')
     putchar(letter--);
   putchar('\n');
   return (0);

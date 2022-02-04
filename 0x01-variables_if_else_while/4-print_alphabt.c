@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  *main - program that prints alphabet in lowercase\n -q -e
  *
@@ -6,11 +7,13 @@
  */
 int main(void)
 {
+  
   int letter;
-  letter='a';
-  while(letter>='a'&&letter<='z')
+  
+  letter = 'a';
+  while(letter >= 'a' && letter <= 'z')
     {
-      if(letter!='q'&&letter!='e')
+      if(letter != 'q' && letter != 'e')
 	putchar(letter);
       letter++;
     }
