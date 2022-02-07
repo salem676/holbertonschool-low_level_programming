@@ -3,7 +3,7 @@
 /**
  *main - prints numbers 00-99.
  *
- *Return 0.
+ *Return: 0.
  */
 int main(void)
 {

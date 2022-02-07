@@ -3,10 +3,10 @@
  *main - prints alphabet in lowercase.
  *
  *
- *Return - 0.
+ *Return:0.
  */
 int main(void)
-{ 
+{
 	int letter;
 	/**
 	 *letter - represents a numeric value analogue to ASCII letter.
