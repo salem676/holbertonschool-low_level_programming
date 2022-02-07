@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - program that prints alphabet in lowercase\n -q -e
+ *main - program that prints alphabet in lowercase.
  *
- *Return - 0.
+ *Return: 0.
  */
 int main(void)
 {
@@ -14,9 +14,9 @@ int main(void)
 	 *Description: this part refers to variable declaration.
 	 */
 	letter = 'a';
-	while(letter >= 'a' && letter <= 'z')
+	while (letter >= 'a' && letter <= 'z')
 	{
-		if(letter != 'q' && letter != 'e')
+		if (letter != 'q' && letter != 'e')
 			putchar(letter);
 		letter++;
 	}

@@ -19,15 +19,15 @@ int main(void)
 	for (i = '0' ;i <= '9'; i++)
 	{
 		j = i;
-		while(++j <= '9')
+		while (++j <= '9')
 		{
 			k = j;
-			while(++k <= '9')
+			while (++k <= '9')
 			{
 				putchar(i);
 				putchar(j);
 				putchar(k);
-				if(i == '7' && j == '8' && k == '9')
+				if (i == '7' && j == '8' && k == '9')
 					break;
 				putchar(',');
 				putchar(' ');

@@ -14,10 +14,10 @@ int main(void)
 	 *Description: this part refers to the variable declaration.
 	 */
 	number = '0';
-	while(number >= '0' && number <= '9')
+	while (number >= '0' && number <= '9')
 		putchar(number++);
 	number = 'a';
-	while(number >= 'a' && number <= 'f')
+	while (number >= 'a' && number <= 'f')
 		putchar(number++);
 	putchar('\n');
 	return (0);

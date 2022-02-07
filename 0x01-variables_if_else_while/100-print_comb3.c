@@ -18,11 +18,11 @@ int main(void)
 	for (i = '0'; i <= '9'; i++)
 	{
 		j = i;
-		while(++j <= '9')
+		while (++j <= '9')
 		{
 			putchar(i);
 			putchar(j);
-			if(i == '8' && j == '9')
+			if (i == '8' && j == '9')
 				break;
 			putchar(',');
 			putchar(' ');

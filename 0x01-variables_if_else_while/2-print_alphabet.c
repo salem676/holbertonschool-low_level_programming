@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  *main - prints alphabet in lowercase.
  *
@@ -15,7 +14,7 @@ int main(void)
 	 *Description: this parts refers to variable declaration.
 	 */
 	letter = 'a';
-	while(letter >= 'a' && letter <= 'z')
+	while (letter >= 'a' && letter <= 'z')
 		putchar(letter++);
 	putchar('\n');
 	return (0);
