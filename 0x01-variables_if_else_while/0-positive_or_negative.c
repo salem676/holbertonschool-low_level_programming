@@ -10,7 +10,11 @@
 int main(void)
 {
 	int n;
-	
+	/**
+	 *n - it is an integer number.
+	 *
+	 *Description: this part refers to variable declaration.
+	 */
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
