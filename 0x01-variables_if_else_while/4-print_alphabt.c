@@ -8,7 +8,11 @@
 int main(void)
 {
 	int letter;
-  
+	/**
+	 *letter: variable analogue to ASCII letter.
+	 *
+	 *Description: this part refers to variable declaration.
+	 */
 	letter = 'a';
 	while(letter >= 'a' && letter <= 'z')
 	{

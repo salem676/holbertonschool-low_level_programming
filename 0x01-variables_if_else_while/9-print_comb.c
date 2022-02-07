@@ -8,7 +8,11 @@
 int main(void)
 {
 	int number;
-
+	/**
+	 *number - variable refered to integer numerical values.
+	 *
+	 *Description: this part refers to declaration variable.
+	 */
 	number = '0';
 	while(number >= '0' && number <= '9')
 	{

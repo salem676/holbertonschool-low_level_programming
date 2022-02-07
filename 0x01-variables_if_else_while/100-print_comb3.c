@@ -9,7 +9,11 @@ int main(void)
 {
 	int i;
 	int j;
-
+	/**
+	 *i,j - variables both refer to numerical values.
+	 *
+	 *Description: this part declares varibles for use.
+	 */
 	j = 0;
 	for (i = '0'; i <= '9'; i++)
 	{

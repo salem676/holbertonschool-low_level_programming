@@ -8,7 +8,11 @@
 int main(void)
 {
 	int number;
-
+	/**
+	 *number - this variable is associated with integer numerical values.
+	 *
+	 *Description: this part refers to the variable declaration.
+	 */
 	number = '0';
 	while(number >= '0' && number <= '9')
 		putchar(number++);

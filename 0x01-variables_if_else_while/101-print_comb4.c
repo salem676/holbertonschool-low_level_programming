@@ -10,7 +10,11 @@ int main(void)
 	int i;
 	int j;
 	int k;
-
+	/**
+	 *i,j,k - variables refer to numerical values (integers).
+	 *
+	 *Description: this part is where variables are declared.
+	 */
 	j = 0;
 	for (i = '0' ;i <= '9'; i++)
 	{
