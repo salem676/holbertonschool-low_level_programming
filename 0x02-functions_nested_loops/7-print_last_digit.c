@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  *print_last_digit - generates last digit of number n.
  *@n: note that integer limits are 2147483647, -2147483648

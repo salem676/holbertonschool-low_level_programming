@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  *add - this function sums input.
  *@a: input number.

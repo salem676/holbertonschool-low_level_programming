@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  *_abs - calculates absolute value of number given.
  *@n: input value.
