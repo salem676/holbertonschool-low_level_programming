@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	unsigned long count, i , j , k;
+	unsigned long count, i, j, k;
 	/**
 	 *count - used as counter.
 	 *i,j,k - variables used to calculate numbers.
