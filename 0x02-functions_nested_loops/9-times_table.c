@@ -26,7 +26,7 @@ void times_table(void)
 			}
 			if (m * n > 9)
 				_putchar (m * n / 10 + '0');
-			_putchar (m * n % 10 + '0')
+			_putchar(m * n % 10 + '0');
 		}
 		_putchar('\n');
 	}
