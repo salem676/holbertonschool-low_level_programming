@@ -13,11 +13,11 @@ int _isupper(int c)
 	 *
 	 * Description: this part refers to variable declaration.
 	 */
-	if (c > 64 && c < 91)
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
-	else if (c > 97 && c < 123)
+	else
 	{
 		return (0);
 	}
