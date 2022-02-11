@@ -1,0 +1,1 @@
+"This part abbords more functions and nested loop algorithms"
