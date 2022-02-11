@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - determines if integer given is digit.
