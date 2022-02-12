@@ -13,7 +13,7 @@ int main(void)
 	 *
 	 *Description: this part refers to variable declaration.
 	 */
-	i=0;
+	i = 0;
 	positive_or_negative(i);
 	return (0);
 }

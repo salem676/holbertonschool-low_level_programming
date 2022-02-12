@@ -14,11 +14,11 @@ int largest_number(int a, int b, int c)
 	 *
 	 * Description: this part refers to variable declaration.
 	*/
-	if ((a > b && b > c) || (a > c && c > b))
+	if ((a >= b && b >= c) || (a >= c && c >= b))
 	{
 		largest = a;
 	}
-	else if ((b > a && a > c) || (b > c && c > a))
+	else if ((b >= a && a >= c) || (b >= c && c >= a))
 	{
 		largest = b;
 	}
