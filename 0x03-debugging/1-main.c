@@ -2,7 +2,6 @@
 #include "main.h"
 /**
  * main - this debugs.
- *
  * Return: 0.
  */
 int main(void)
@@ -10,7 +9,6 @@ int main(void)
 	int i;
 	/**
 	 *@i: counter.
-	 *
 	 * Description: this part refers to variable declaration.
 	 */
 	printf("Infinite loop incoming :(\n");
