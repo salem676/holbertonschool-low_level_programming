@@ -10,9 +10,9 @@ int largest_number(int a, int b, int c)
 {
 	int largest;
 	/**
-	 * largest - variable used for result.
+	 * @largest: variable used for result.
 	 *
-	 * Description: this part refers to variable declaration. 
+	 * Description: this part refers to variable declaration.
 	*/
 	if ((a > b && b > c) || (a > c && c > b))
 	{
