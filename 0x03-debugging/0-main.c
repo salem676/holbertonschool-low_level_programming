@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 	/**
-	 *i - number evaluated.
+	 *@i: number evaluated.
 	 *
 	 *Description: this part refers to variable declaration.
 	 */
