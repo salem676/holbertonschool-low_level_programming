@@ -25,7 +25,7 @@ void rev_string(char *s)
 	 */
 	len = _strlen(s);
 	i = 0;
-	last = s + len;
+	last = s + len - 1;
 	while (i < len / 2)
 	{
 		dum = *s;
