@@ -22,13 +22,12 @@ void print_rev(char *str)
 	 */
 	len = _strlen(str);
 	dum = str;
-	str = str + len;
+	str = str + len - 1;
 	while (str >= dum)
 	{
 		_putchar(*str);
 		str--;
 	}
-	_putchar('\0');
 	_putchar('\n');
 }
 
