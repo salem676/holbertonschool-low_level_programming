@@ -20,7 +20,7 @@ void puts2(char *str)
 	i = 1;
 	while (*str != '\0')
 	{
-		if ((*str != ' ') && (i == 1))
+		if ((*str == ' ') || (i == 1))
 		{
 			_putchar(*str);
 		}
