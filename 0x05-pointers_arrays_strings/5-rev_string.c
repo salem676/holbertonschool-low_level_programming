@@ -23,7 +23,9 @@ void rev_string(char *s)
 	 * @last: pointer to last letter.
 	 * @dum: dummy variable.
 	 */
-	len = _strlen(s);
+	len = 0;
+	while (s[len] != '\0')
+		len++;
 	i = 0;
 	last = s + len - 1;
 	while (i < len / 2)

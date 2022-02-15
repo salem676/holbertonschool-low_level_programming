@@ -13,41 +13,19 @@
  */
 void puts2(char *str)
 {
-	int len;
+	int i;
 	/**
-	 * @len: represents string length.
+	 * @i: counter.
 	 */
-	len = _strlen(str);
+	i = 1;
 	while (*str != '\0')
 	{
-		if (len % 2 == 0)
+		if ((*str != ' ') && (i == 1))
 		{
 			_putchar(*str);
 		}
+		i = i * -1;
 		str++;
-		len++;
 	}
 	_putchar('\n');
 }
-
-/**
- * _strlen - give lenght of string.
- * @s: direction of first element of string
- * Description: this functions returns the lenght of a given string.
- * Return: string lenght.
- */
-int _strlen(char *s)
-{
-	int count;
-	/**
-	 * @count: counts.
-	 */
-	count = 0;
-	while (*s != '\0')
-	{
-		s++;
-		count++;
-	}
-	return (count);
-}
-
