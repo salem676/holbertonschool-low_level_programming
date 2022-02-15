@@ -1,0 +1,26 @@
+/*
+ * File: 8-print_array.c
+ * Author: salem676
+ */
+#include <stdio.h>
+#include "main.h"
+/**
+ * print_array - prints n integers.
+ * @a: direction of first position of array.
+ * @n: n elements. 
+ * Description: prints n elements of an array of integers.
+ * Return: void.
+ */
+void print_array(int *a, int n)
+{
+	int i;
+	/**
+	 * @i: counter.
+	 */
+	for (i = 1; i < n; i++)
+	{
+		printf("%d, ", a[i]);
+	}
+	printf("\n");
+}
+
