@@ -7,7 +7,7 @@
 /**
  * print_array - prints n integers.
  * @a: direction of first position of array.
- * @n: n elements. 
+ * @n: n elements.
  * Description: prints n elements of an array of integers.
  * Return: void.
  */
@@ -17,7 +17,7 @@ void print_array(int *a, int n)
 	/**
 	 * @i: counter.
 	 */
-	for (i = 1; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%d, ", a[i]);
 	}
