@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _strcat - string concatenate.
+ * _strncat - string concatenate.
  * @dest: destined string.
  * @src: source string.
  * @n: size of string.
@@ -25,7 +25,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		c1++;
 	}
-	while ((src[c2] != '\0') || (c2 < n - 1))
+	while ((src[c2] != '\0') && (c2 < n))
 	{
 		dest[c1] = src[c2];
 		c1++;
