@@ -15,17 +15,15 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int i, j;
+	unsigned int i;
 	/**
-	 * @i: counter for dest.
-	 * @j: counter for src.
+	 * @i: counter.
 	 */
-	while ((dest[i] != '\0') && (j < n))
+	i = 0;
+	while (i < n)
 	{
-		dest[i] = src[j];
+		*(dest + i) = *(src + i);
 		i++;
-		j++;
 	}
-	dest[i] = '\0';
 	return (dest);
 }
