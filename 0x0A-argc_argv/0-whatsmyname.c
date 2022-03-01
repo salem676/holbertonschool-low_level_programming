@@ -5,18 +5,15 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * mynameis - prints name, new line.
+ * main - prints name, new line.
  * @argc: argument counter.
  * @argv: argument vector.
  * Description: this function prints function name, followed
  * by a new line.
  * Return: void.
  */
-int mynameis(int argc, char **argv)
+int main(int argc __attribute__((unused)), char **argv)
 {
-	if (argc >= 1)
-	{
-		printf("%s\n", argv[0]);
-	}
+	printf("%s\n", argv[0]);
 	return (0);
 }
