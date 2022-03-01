@@ -6,14 +6,14 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * change - prints change.
+ * main - prints change.
  * @argc: argument counter.
  * @argv: argument vector.
  * Description: prints minimum number of coins
  * to make change for an amount of money.
  * Return: int.
  */
-int change(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int i;
 	int num;

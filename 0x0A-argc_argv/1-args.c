@@ -5,18 +5,15 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * nargs - prints arg number, new line.
+ * main - prints arg number, new line.
  * @argc: argument counter.
  * @argv: argument vector.
  * Description: this function prints number of args, followed
  * by a new line.
  * Return: void.
  */
-int nargs(int argc, char **argv)
+int main(int argc, char **argv __attribute__((unused)))
 {
-	if (argc >= 1)
-	{
-		return (argc);
-	}
+	printf("%d\n", argc - 1);
 	return (0);
 }

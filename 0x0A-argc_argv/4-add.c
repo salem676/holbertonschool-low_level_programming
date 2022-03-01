@@ -6,13 +6,13 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * add - adds arguments.
+ * main - adds arguments.
  * @argc: argument counter.
  * @argv: argument vector.
  * Description: returns sum of arguments.
  * Return: integer sum.
  */
-int add(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int i, j;
 	int sum = 0;

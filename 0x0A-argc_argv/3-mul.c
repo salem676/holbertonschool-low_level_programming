@@ -3,24 +3,30 @@
  * Author: salem676
  */
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
- * mul - product arguments.
+ * man - product arguments.
  * @argc: argument counter.
  * @argv: argument vector.
  * Description: returns product of arguments.
  * Return: void.
  */
-int mul(int argc, char **argv)
+int main(int argc, char **argv)
 {
-	if (argc != 2)
+	int mul = 0;
+	/**
+	 * @mul: variable to store mult.
+	 */
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
 	else
 	{
-		return ((int)argv[argc - 1] * (int)argv[argc - 2]);
+		mul = (atoi(argv[1]) * atoi(argv[2]));
+		printf("%d\n", mul);
 	}
 	return (0);
 }

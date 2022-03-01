@@ -5,14 +5,14 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * args - prints arg number, new line.
+ * main - prints arg number, new line.
  * @argc: argument counter.
  * @argv: argument vector.
  * Description: this function prints number of args, followed
  * by a new line.
  * Return: void.
  */
-int args(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int i = 0;
 	/**
@@ -21,7 +21,10 @@ int args(int argc, char **argv)
 	if (argc >= 1)
 	{
 		while (i < argc)
-		printf("%s\n", argv[i]);
+		{
+			printf("%s\n", argv[i]);
+			i++;
+		}
 	}
 	return (0);
 }
