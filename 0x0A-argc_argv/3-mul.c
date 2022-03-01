@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * man - product arguments.
+ * main - product arguments.
  * @argc: argument counter.
  * @argv: argument vector.
  * Description: returns product of arguments.
