@@ -10,7 +10,7 @@
  * @name: passed from main.
  * @age: passed from main.
  * @owner: passed from main.
- * Description: this functions creates a new dog with characteritics. 
+ * Description: this functions creates a new dog with characteristics.
  * Return: pointer to the struct.
  */
 dog_t *new_dog(char *name, float age, char *owner)
