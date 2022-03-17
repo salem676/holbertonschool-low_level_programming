@@ -17,9 +17,9 @@ list_t *add_node(list_t **head, const char *str)
 	int x;
 	/*
 	 * @nstr: pointer to string .
-	 * @newhead: new node to be added. 
+	 * @newhead: new node to be added.
 	 * @x: functions as counter and len.
-	 * The strdup() function returns a pointer to a new 
+	 * The strdup() function returns a pointer to a new
 	 * string which is a duplicate of the string.
 	 */
 	if (!nstr)
