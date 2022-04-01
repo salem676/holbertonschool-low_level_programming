@@ -2,7 +2,7 @@
  * File: 3-cp.c
  * Author: salem676
  */
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
