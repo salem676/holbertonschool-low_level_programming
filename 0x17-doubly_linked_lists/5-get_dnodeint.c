@@ -14,28 +14,18 @@
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	dlistint_t *i = head;
-	unsigned int j = 0;
+	dlistint_t *node = head;
+	unsigned int cont = 0;
 	/*
-	 * @i: init node pointer.
-	 * @j: as counter.
+	 * @node: pointer to node init head.
+	 * @cont: counter.
 	 */
-	if (head != NULL)
+	while (node && cont != index)
 	{
-		return (NULL);
+		cont++;
+		node = node->next;
 	}
-	while (i != NULL)
-	{
-		i = i->next;
-		j++;
-	}
-	if (index > (j - 1))
-	{
-		return (NULL);
-	}
-	for (j = 0; j < index; j++)
-	{
-		head = head->next;
-	}
-	return (head);
+	if (node && cont == index)
+		return (node);
+	return (NULL);
 }
