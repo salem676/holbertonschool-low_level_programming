@@ -12,40 +12,30 @@
  **/
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-	dlistint_t *aux_node = *head;
-	dlistint_t *node_to_delete = *head;
-	unsigned int idx;
-	unsigned int cont = 0;
+	dlistint_t *temp, *next;
+	unsigned int i;
 	/*
-	 * @aux_node: stated.
-	 * @node_to_delete: stated.
-	 * @idx: as index.
-	 * @cont: counter.
+	 * @temp: temp pointer.
+	 * @next: next pointer.
+	 * @i: counter.
 	 */
-	if (!(*head))
+	if (*head == NULL)
 		return (-1);
+
+	temp = *head;
 	if (index == 0)
 	{
-		*head = node_to_delete->next;
-		free(node_to_delete);
-		if (*head)
-			(*head)->prev = NULL;
+		*head = temp->next;
+		temp->prev = NULL;
+		free(temp);
 		return (1);
 	}
-	idx = index - 1;
-	while (aux_node && cont != idx)
-	{
-		cont++;
-		aux_node = aux_node->next;
-	}
-	if (cont == idx && aux_node)
-	{
-		node_to_delete = aux_node->next;
-		if (node_to_delete->next)
-		node_to_delete->next->prev = aux_node;
-		aux_node->next = node_to_delete->next;
-		free(node_to_delete);
-		return (1);
-	}
-	return (-1);
+	for (i = 0; temp != NULL && i < index - 1; i++)
+		temp = temp->next;
+	if (temp == NULL || temp->next == NULL)
+		return (-1);
+	next = temp->next->next;
+	free(temp->next);
+	temp->next = next;
+	return (1);
 }
