@@ -2,7 +2,7 @@
  * File: 5-strstr.c
  * Author: salem676
  */
-#include "holberton.h"
+#include "main.h"
 /**
   * _strstr - locate a substring.
   * @haystack: the string to search.
