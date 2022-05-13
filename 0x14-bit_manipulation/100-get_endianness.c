@@ -2,20 +2,17 @@
  * File: 100-get_endianness.c
  * Author: salem676
  */
-#include <stdio.h>
 #include "holberton.h"
 /**
- * get_endianness - write a function that checks the endianness.
+ * get_endianness - return the endianness of the machine.
  * Description: as above.
- * Return: 1, if architecture is little endian, 0 in case of big endian.
+ * Return: 0 for big endian, 1 for little endian.
  */
 int get_endianness(void)
 {
-	unsigned int x = 1;
-	char *c = (char *) &x;
+	int n = 1;
 	/*
-	 * @x: unsgned int in 1.
-	 * @c: ptr to char, casted from int.
+	 * @n: integer in 1.
 	 */
-	return ((int)*c);
+	return (*((char *) &n) + '0');
 }
